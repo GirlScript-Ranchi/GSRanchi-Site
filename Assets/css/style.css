@@ -13,15 +13,9 @@ body, html{
     position: fixed;
     z-index: +9999;
 }
-.navbar-brand img{
-    height: 60px !important;
-}
 .navbar{
-    background-color: #000;
-    opacity: .89;
-    width: 100%;
-    position: fixed;
-    top: 0 !important;
+    background-color: #111;
+    opacity: .9;
     height: 15vh;
 }
 h1,h2,h3,h4,h5{
@@ -84,11 +78,12 @@ form
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    
 }
-.jumbotron{
-    height: 85vh;
-    margin-top: 15vh;
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width : 350px){
     .lowerFooter h6{
