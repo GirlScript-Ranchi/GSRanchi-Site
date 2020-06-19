@@ -14,9 +14,10 @@ body, html{
     z-index: +9999;
 }
 .navbar{
-    background-color: #111;
     opacity: .9;
-    height: 15vh;
+    background-color: #111;
+    width: 100%;
+    top: 0 !important;
 }
 h1,h2,h3,h4,h5{
     font-family: 'Poppins', sans-serif;
@@ -28,10 +29,6 @@ p, small, h6{
 .row{
     width: 100%;
     padding: 0% !important;
-}
-.jumbotron{
-    background-image: url("../images/dhoni.jpg");
-    background-size: cover;
 }
 .footer{
     width: 100%;
