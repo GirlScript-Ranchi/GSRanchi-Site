@@ -18,7 +18,6 @@ body, html{
     top: 0 !important;
     margin: 0%;
     padding: 0%;
-    max-height: 15vh !important;
 }
 .navbar-brand{
     padding: 0% !important;
@@ -145,6 +144,7 @@ form
         margin-bottom: 0%;
     }
     .carousel{
+        margin-top: 0vh;
         height: 35vh;
     }
     .carousel-overlay{
