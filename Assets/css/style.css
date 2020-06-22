@@ -13,6 +13,15 @@ body, html{
     position: fixed;
     z-index: +9999;
 }
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+    display: block;
+    height: auto;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    line-height: 1;
+}
+
 .navbar{
     opacity: .9;
     background-color: #111;
