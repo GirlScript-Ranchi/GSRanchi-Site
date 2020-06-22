@@ -14,10 +14,23 @@ body, html{
     z-index: +9999;
 }
 .navbar{
-    opacity: .9;
-    background-color: #111;
     width: 100%;
     top: 0 !important;
+    margin: 0%;
+    padding: 0%;
+}
+.navbar-brand{
+    padding: 0% !important;
+    margin: 0% !important;
+}
+nav{
+    padding: 5% 8% !important;
+    margin: 0%;
+}
+.carousel{
+    height: 100vh !important;
+    margin-top: -80px !important;
+    background: linear-gradient(to right, #000, #222);
 }
 h1,h2,h3,h4,h5{
     font-family: 'Poppins', sans-serif;
