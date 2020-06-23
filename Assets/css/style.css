@@ -146,6 +146,19 @@ form
 .team{
     width: 60%;
 }
+.about{
+    font-size: 1.125rem !important;
+    letter-spacing: 1px;
+    font-weight: 400 !important;
+}
+.about h2, .join h1{
+    font-weight: 800;
+    font-size: 3em;
+}
+.quote{
+    font-size: 1.2em;
+    font-style: italic;
+}
 .card{
     min-width: 240px;
     background-color: transparent;
