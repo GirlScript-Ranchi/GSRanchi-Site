@@ -5,6 +5,7 @@ body, html{
     padding: 0%;
     margin: 0%;
     z-index: -999;
+    background-color: #f0f0f0;
 }
 #loader{
     width: 100%;
@@ -103,6 +104,9 @@ p, small, h6{
     text-decoration: none;
     color: #f7f7f7;
 }
+.fa-2x:hover{
+    color: #ffad00;
+}
 div.form
 {
     display: block;
@@ -131,7 +135,83 @@ form
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width : 450px){
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #222;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(45deg, #ffa400, #222 )
+}
+.team{
+    width: 60%;
+}
+.card{
+    min-width: 240px;
+    background-color: transparent;
+    border: 0;
+}
+.team-member{
+    width: 240px;
+    height: 320px;
+    cursor: pointer;
+    z-index: -999 !important;
+}
+.team-member :hover{
+    display: none;
+}
+.team-member :hover details{
+    display: block;
+}
+.team h1{
+    font-weight: 800;
+    font-size: 3rem;
+}
+.name a{
+    color: #f7f7f7;
+    text-decoration: none;
+    outline: none;
+}
+.details{
+    width: 240px;
+    height: 60px;
+    margin-top: -60px;
+    background-color: #000;
+    color: #ffa400;
+    opacity: .9;
+    z-index: +999;
+    justify-content: flex-end;
+}
+.team .col-md-4{
+    width: 240px !important;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+.slick-prev:before {
+    color: #ffa400 !important;
+    background-color: #eee;
+  }
+  .slick-next:before {
+    color: #ffa400 !important;
+    background-color: #eee;
+  }
+@media screen and (max-width : 325px){
+    .col-md-4{
+        width: 240px !important;
+        margin: 0% !important;
+        padding: 0% !important;
+    }
+    .team .container{
+        width: 100%;
+    }
+    .team h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width : 1025px){
+    .team{
+        width: 80%;
+    }
     .lowerFooter h6{
         font-size: 0.9em;
     }
