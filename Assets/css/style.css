@@ -67,8 +67,6 @@ p, small, h6{
 }
 .footer{
     width: 100%;
-    padding: 0% !important;
-    margin: 0% !important;
     background-color: aqua;
 }
 .upperFooter{
@@ -98,7 +96,7 @@ p, small, h6{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1% 0% !important;
+    padding: 2% 0% !important;
 }
 .lowerFooter a{
     text-decoration: none;
@@ -247,4 +245,8 @@ form
     nav{
         padding: 5% 8% !important;
     }
+}
+.program h1{
+    font-weight: 800;
+    font-size: 3rem;
 }
