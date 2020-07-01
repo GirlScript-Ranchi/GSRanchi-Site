@@ -206,6 +206,11 @@ form
     color: #ffa400 !important;
     background-color: #eee;
   }
+  
+.program h1{
+    font-weight: 800;
+    font-size: 3rem;
+}
 @media screen and (max-width : 325px){
     .col-md-4{
         width: 240px !important;
@@ -215,8 +220,14 @@ form
     .team .container{
         width: 100%;
     }
-    .team h1{
-        font-size: 2rem;
+    .team h1, .about h2, .join h1{
+        font-size: 1.75em;
+    }
+    .program h1{
+        font-size: 2em;
+    }
+    .mentor{
+        margin-top: 15%;
     }
 }
 @media screen and (max-width : 1025px){
@@ -245,8 +256,4 @@ form
     nav{
         padding: 5% 8% !important;
     }
-}
-.program h1{
-    font-weight: 800;
-    font-size: 3rem;
 }
