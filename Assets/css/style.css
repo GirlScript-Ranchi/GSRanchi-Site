@@ -220,6 +220,9 @@ form
     .team .container{
         width: 100%;
     }
+    .team h1, .about h2{
+        font-size: 1.75em !important;
+    }
 }
 @media screen and (max-width : 450px){
     .team h1, .about h2, .join h1{
