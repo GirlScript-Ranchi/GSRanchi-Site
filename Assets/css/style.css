@@ -42,7 +42,7 @@ nav{
     background-color: #000;
     height: 100vh;
     margin-top: -100vh;
-    opacity: .6;
+    opacity: .8;
 }
 .img-fluid{
     min-height: 35vh !important;
@@ -210,6 +210,8 @@ form
 .program h1{
     font-weight: 800;
     font-size: 3rem;
+}
+.card-img-top{
 }
 @media screen and (max-width : 325px){
     .col-md-4{

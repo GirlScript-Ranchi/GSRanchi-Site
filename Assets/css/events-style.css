@@ -1,0 +1,119 @@
+
+body, html{
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    z-index: -999;
+    background-color: #f0f0f0;
+}
+.navbar{
+    width: 100%;
+    top: 0 !important;
+    margin: 0%;
+    background-color: rgb(0, 0, 0, .85);
+    position: fixed;
+    z-index: +99999;
+}
+.navbar-brand{
+    padding: 0% !important;
+    margin: 0% !important;
+}
+nav{
+    margin: 0%;
+    padding: 1.75% 5% !important;
+    height: 15vh;
+}
+.nav-link{
+    color: #ffa400 !important;
+    font-weight: 500;
+}
+.footer{
+    width: 100%;
+    background-color: aqua;
+}
+.upperFooter{
+    background-color: #333;
+    color: #f7f7f7;
+    width: 100%;
+    padding: 3%;
+}
+
+.upperFooter img{
+    height: 150px !important;
+}
+.upperFooter h3{
+    font-weight: 500;
+    font-size: 2em;
+}
+.upperFooter h5{
+    color: #ffa400;
+}
+.upperFooter a{
+    color: #f7f7f7;
+}
+.lowerFooter{
+    background-color: #222;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0% !important;
+}
+.lowerFooter a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+.fa-2x:hover{
+    color: #ffad00;
+}
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.btn, .btn-primary, .btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+    background-color: #ffa400;
+    border: 2px solid #000;
+    color: #000 !important;
+    border-radius: 5px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #222;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(45deg, #ffa400, #222 )
+}
+.event{
+    margin-top: 15vh;
+    padding-top: 2vh;
+}
+.event h1,.event h2,.event h3,.event h4, .event h5, .event h6{
+    font-family: 'Poppins', sans-serif;
+}
+.event h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+@media screen and (max-width : 1025px){
+}
