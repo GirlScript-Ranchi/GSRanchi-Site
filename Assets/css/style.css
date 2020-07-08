@@ -34,7 +34,7 @@ nav{
     font-weight: 500;
 }
 .carousel{
-    margin-top: -14.5vh;
+    /*margin-top: -14.5vh;*/
     height: 100vh;
     overflow: hidden;
 }
@@ -214,8 +214,6 @@ form
 .program h1{
     font-weight: 800;
     font-size: 3rem;
-}
-.card-img-top{
 }
 @media screen and (max-width : 325px){
     .col-md-4{
