@@ -119,6 +119,10 @@ form
     font-weight: 600;
     font-size: 2.5rem;
 }
+.mentor-pic{
+    height: 300px;
+    width: 300px;
+}
 .mentor-overlay{
     height: 300px;
     width: 300px;
@@ -138,3 +142,11 @@ form
         margin: 2%;
     }
 }
+
+/*@media screen and (max-width:1000px){
+    .mentor{
+        margin: 2%;
+    }
+    
+}
+*/
