@@ -115,5 +115,26 @@ form
     font-size: 50px;
     font-weight: 600;
 }
-@media screen and (max-width : 1025px){
+.mentor-heading{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.mentor-overlay{
+    height: 300px;
+    width: 300px;
+    padding-top: 53px;
+    padding-left: 250px;
+    margin-top: -300px;
+}
+.mentor-overlay a{
+    position: absolute;
+    color: #ffffff;
+}
+.mentor-overlay a:hover{
+    color: #f0f0f0;
+}
+@media screen and (max-width : 500px){
+    .mentor{
+        margin: 2%;
+    }
 }
