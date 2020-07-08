@@ -210,7 +210,24 @@ form
     color: #ffa400 !important;
     background-color: #eee;
   }
-  
+  .gsevent{
+      border: 1px solid #999;
+      height: fit-content;
+      width: fit-content;
+      padding: 10px;
+      margin-bottom: 10%;
+  }
+  .gsevent-heading{
+      font-weight: 800;
+      font-size: 2rem;
+  }
+  .gsevent .quote{
+      font-size: 1rem;
+  }
+  .gsevent a :first-child{
+      color: #eee;
+      width: 135px;
+  }
 .program h1{
     font-weight: 800;
     font-size: 3rem;
