@@ -12,8 +12,7 @@ body, html{
     top: 0 !important;
     margin: 0%;
     background-color: rgb(0, 0, 0, .85);
-    position: fixed;
-    z-index: +99999;
+    z-index: +99999; 
 }
 .navbar-brand{
     padding: 0% !important;
@@ -22,7 +21,8 @@ body, html{
 nav{
     margin: 0%;
     padding: 1.75% 5% !important;
-    height: 15vh;
+    position: fixed;
+   /* height: 15vh; */
 }
 .nav-link{
     color: #ffa400 !important;
