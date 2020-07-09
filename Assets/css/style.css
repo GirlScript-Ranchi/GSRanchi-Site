@@ -256,6 +256,11 @@ form
         margin-top: 15%;
     }
 }
+@media screen and (min-width : 1025px){
+    .mobile-mode{
+        display: none;
+    }
+}
 @media screen and (max-width : 1025px){
     .team{
         width: 80%;
@@ -281,5 +286,8 @@ form
     }
     nav{
         padding: 5% 8% !important;
+    }
+    .tablet-mode{
+        display: none;
     }
 }
