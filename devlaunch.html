@@ -17,8 +17,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <a class="navbar-brand my-auto" href="#"><img src="./Assets/images/logoLight.png" width="200"></a>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-4">
+    <a class="navbar-brand my-auto" href="./index.html"><img src="./Assets/images/logoLight.png" width="200"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -26,140 +26,131 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item mr-3">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="./index.html">Home</a>
         </li>
         <li class="nav-item mr-3">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item mr-3">
-          <a class="nav-link" href="#">Events</a>
+          <a class="nav-link" href="#timeline">Timeline</a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link" href="#takeaways">Takeaways</a>
         </li>
         <li class="nav-item mr-5">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#mentor">Mentors</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class="container event">
-    <h1 class="my-3 text-center heading">DevLaunch</h1>
+  <div class="container event" id="about" style="margin-top: 100px; padding-top: 100px;">
+    <h1 class="text-center heading">DevLaunch</h1>
     <div class="row">
-      <div class="col-md-4">
-        <img class="img-fluid" src="./Assets/images/devpost_sqr.png">
+      <div class="col-md-4 my-auto">
+        <img class="img-fluid" src="./Assets/images/DevLaunch.png">
       </div>
-      <div class="col-md-8 order-sm-first">
-        <h3> About</h3>
+      <div class="col-md-8 order-sm-first my-auto">
+        <h2 class="text-center mt-4" style="font-weight: 800;"> About Devlaunch</h2>
         <div class="row">
           <div class="col-12">
             <div class="about">
-              <p>
+              <p class="px-2" style="font-size: 1.5rem;">
                 <b>DevLaunch</b> is a Web Development workshop + portfolio website making COMPETITION.
                 A 6 days comprehensive bootcamp for learning Web Development right from the SCRATCH and 3 days
                 competition for building up and deploying your own Portfolio Website!💻
               </p>
-              <br>
-              <h5>Key Takeaways</h5>
-              <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Live hands-on session on every topic
-                  by the mentors. </li>
-                <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Building up your own Portfolio
-                  Website.</li>
-                <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Certificate of completion for all the
-                  participants.
-                  Certificate of Appreciation for 3 participants who perform well during the bootcamp.</li>
-                <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Certificate of Appreciation for the
-                  BEST 3 PORTFOLIO WEBSITES and a chance to work with GirlScript Ranchi.*</li>
-              </ul>
             </div>
           </div>
         </div>
-
       </div>
     </div>
-
-
-    <div class="row">
-      <div class="col-md-12">
-        <h3>Dates for the Event</h3>
-        <h5>Workshop - 12th to 17th July</h5>
-        <h5>Competition - 18th to 20th July</h5>
+    <div id="timeline" style="padding-top: 100px;">
+      <h2 class="text-center mt-4" style="font-weight: 800;">Devlaunch Timeline</h2>
+      <div class="timeline center mt-3">
+        <div class="Day1 center">
+          <h4 class="text-center">Web<br>Programming</h4>
+          <small>12th July</small>
+        </div>
+        <div class="Day1 center">
+          <h4 class="text-center">Introduction <br> to HTML5</h4>
+          <small>13th July</small>
+        </div>
+        <div class="Day1 center">
+          <h4 class="text-center">Introduction <br> to CSS3</h4>
+          <small>14th July</small>
+        </div>
+        <div class="Day1 center">
+          <h4 class="text-center">JavaScript</h4>
+          <small>15th July</small>
+        </div>
+        <div class="Day1 center">
+          <h4 class="text-center">Github &<br>Deployment</h4>
+          <small>16th July</small>
+        </div>
+        <div class="Day1 center">
+          <h4 class="text-center">Portfolio<br>Making<br>Competetion</h4>
+          <small>17th - 20th July</small>
+        </div>
       </div>
     </div>
-
-    <div class="timeline center">
-      <div class="Day1 center">
-        <h4 class="text-center">Web<br>Programming</h4>
-      </div>
-      <div class="Day1 center">
-        <h4 class="text-center">Introduction <br> to HTML5</h4>
-      </div>
-      <div class="Day1 center">
-        <h4 class="text-center">Introduction <br> to CSS3</h4>
-      </div>
-      <div class="Day1 center">
-        <h4 class="text-center">JavaScript</h4>
-      </div>
-      <div class="Day1 center">
-        <h4 class="text-center">Github &<br>Deployment</h4>
-      </div>
-      <div class="Day1 center">
-        <h4 class="text-center">Introduction <br> to HTML5</h4>
-      </div>
-    </div>
-    <h2 class="text-center mt-5 mb-3">Key Takeaways</h2>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card-deck">
-          <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    <div id="takeaways" style="padding-top: 100px;">
+      <h2 class="text-center mt-5 mb-3" style="font-weight: 800;">Key Takeaways</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card-deck">
+            <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
               text-align: center;">
-            <div class="card-body">
-              <img src="./Assets/images/Icons/certificate.png" height="100px">
-              <br>
-              <p class="card-text">Certificate of completion for all the
-                participants.</p>
+              <div class="card-body">
+                <img src="./Assets/images/Icons/certificate.png" height="100px">
+                <br>
+                <p class="card-text">Certificate of completion for all the
+                  participants.</p>
+              </div>
             </div>
-          </div>
-          <div class="card" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            <div class="card" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                   text-align: center;">
-            <div class="card-body">
-              <img src="./Assets/images/Icons/session.png" height="100px">
-              <br>
-              <p class="card-text">Live hands-on session on every topic
-                by the mentors.</p>
+              <div class="card-body">
+                <img src="./Assets/images/Icons/session.png" height="100px">
+                <br>
+                <p class="card-text">Live hands-on session on every topic
+                  by the mentors.</p>
+              </div>
             </div>
-          </div>
-          <div class="card" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            <div class="card" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                   text-align: center;">
-            <div class="card-body">
-              <img src="./Assets/images/Icons/podium.png" height="100px">
-              <p class="card-text">
-                Certificate of Appreciation for the
-                <em> BEST 3 PORTFOLIO WEBSITES </em>
-              </p>
+              <div class="card-body">
+                <img src="./Assets/images/Icons/podium.png" height="100px">
+                <p class="card-text">
+                  Certificate of Appreciation for the
+                  <em> best 3 portfolio websites. </em>
+                </p>
+              </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
-    <h2 class="text-center mentor-heading my-5">Mentors of DevLaunch</h2>
-    <div class="row mentors mb-5">
-      <div class="col-lg-4 mentor center">
-        <img class="mentor-pic" src="./Assets/images/mentor/abhishek.jpg">
-        <div class="mentor-overlay">
-          <a href="https://www.linkedin.com/in/abhishek-mankuskar-03790018b/" class="fab fa-2x fa-linkedin m-1"></a>
+    <div id="mentor" style="padding-top: 100px;">
+      <h2 class="text-center mentor-heading my-5">Mentors of DevLaunch</h2>
+      <div class="row mentors mb-5">
+        <div class="col-lg-4 mentor center">
+          <img class="mentor-pic" src="./Assets/images/mentor/abhishek.jpg">
+          <div class="mentor-overlay">
+            <a href="https://www.linkedin.com/in/abhishek-mankuskar-03790018b/" class="fab fa-2x fa-linkedin m-1"></a>
+          </div>
         </div>
-      </div>
-      <div class="col-lg-4 mentor center">
-        <img class="mentor-pic" src="./Assets/images/mentor/aditya.jpg">
-        <div class="mentor-overlay">
-          <a href="https://www.linkedin.com/in/adityaraj-singh/" class="fab fa-2x fa-linkedin m-1"></a>
+        <div class="col-lg-4 mentor center">
+          <img class="mentor-pic" src="./Assets/images/mentor/aditya.jpg">
+          <div class="mentor-overlay">
+            <a href="https://www.linkedin.com/in/adityaraj-singh/" class="fab fa-2x fa-linkedin m-1"></a>
+          </div>
         </div>
-      </div>
-      <div class="col-lg-4 mentor center">
-        <img class="mentor-pic" src="./Assets/images/mentor/harsh.jpg">
-        <div class="mentor-overlay">
-          <a href="https://www.linkedin.com/in/harsh-bardhan-mishra-b19990173/" class="fab fa-2x fa-linkedin m-1"></a>
+        <div class="col-lg-4 mentor center">
+          <img class="mentor-pic" src="./Assets/images/mentor/harsh.jpg">
+          <div class="mentor-overlay">
+            <a href="https://www.linkedin.com/in/harsh-bardhan-mishra-b19990173/" class="fab fa-2x fa-linkedin m-1"></a>
+          </div>
         </div>
       </div>
     </div>
@@ -185,7 +176,8 @@
           <h6><strong>Email :</strong><br><a href="mailto:girlscript.rnc@gmail.com">girlscript.rnc@gmail.com</a></h6>
           <h6><strong>Contact :</strong><br>+91-9876543210</h6>
         </div>
-        <div class="col-lg-3 col-md-6 col-12">
+        <div class="col-lg-3 col-md-6 col-12 my-auto">
+          <h4 class="text-center">Connect with us on:</h4>
           <div class="d-flex justify-content-center">
             <a href="https://www.facebook.com/Girlscript-Ranchi-105199421237889/"
               class="fab fa-2x fa-facebook-square m-1"></a>
@@ -194,22 +186,13 @@
             <a href="https://www.linkedin.com/company/girlscript-ranchi/" class="fab fa-2x fa-linkedin m-1"></a>
             <a href="https://www.instagram.com/girlscript.ranchi/" class="fab fa-2x fa-instagram m-1"></a>
           </div>
-          <div class="center">
-            <h6 class="text-center" style="margin-top: 2%;margin-bottom: 2%;">Subscribe to Our Newsletter
-            </h6>
-            <input type="email" class="form-control" placeholder="Enter Email to subscribe to our Newsletter" name=""
-              id="">
-            <button class="mui-btn mui-btn--primary" style="margin-top: 2%; background-color: #F57C00" type="submit">
-              Subscribe
-            </button>
-          </div>
         </div>
       </div>
     </div>
     <div class="lowerFooter center">
       <div class="row flex-column">
         <h6 class="mx-auto">© 2020 GirlScript Ranchi | All rights reserved.</h6>
-        <h6 class="mx-auto">Made with &#10084;&#65039; by GirlScript Ranchi </h6>
+        <h6 class="mx-auto">Made with &#10084;&#65039; by <strong style="color: #F57C00;">GirlScript Ranchi</strong></h6>
       </div>
     </div>
   </div>

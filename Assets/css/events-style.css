@@ -22,11 +22,11 @@ nav{
     margin: 0%;
     padding: 1.75% 5% !important;
     position: fixed;
-   /* height: 15vh; */
 }
 .nav-link{
-    color: #ffa400 !important;
+    color: #F57C00 !important;
     font-weight: 500;
+    font-size: 1.1rem;
 }
 .footer{
     width: 100%;
@@ -47,7 +47,7 @@ nav{
     font-size: 2em;
 }
 .upperFooter h5{
-    color: #ffa400;
+    color: #F57C00;
 }
 .upperFooter a{
     color: #f7f7f7;
@@ -66,7 +66,7 @@ nav{
     color: #f7f7f7;
 }
 .fa-2x:hover{
-    color: #ffad00;
+    color: #F57C00;
 }
 div.form
 {
@@ -102,10 +102,9 @@ form
 }
 ::-webkit-scrollbar-thumb{
     border-radius: 5px;
-    background: linear-gradient(45deg, #ffa400, #222 )
+    background: linear-gradient(45deg, #ffa400, #F57C00 )
 }
 .event{
-    margin-top: 15vh;
     padding-top: 2vh;
 }
 .event h1,.event h2,.event h3,.event h4, .event h5, .event h6{
@@ -149,8 +148,8 @@ form
 .Day1{
     margin: 20px 50px;
     border-radius: 50%;
-    background: linear-gradient(145deg, #ffffff, #d8d8d8);
-    box-shadow:  20px 20px 40px #cccccc, 
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  20px 20px 40px #d9d9d9, 
              -20px -20px 40px #ffffff;
     height: 200px;
     width: 200px;
