@@ -29,17 +29,48 @@
           <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item mr-3">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#aboute">About Event</a>
         </li>
         <li class="nav-item mr-3">
-          <a class="nav-link" href="#">Events</a>
+          <a class="nav-link" href="#mentors">Mentors</a>
         </li>
         <li class="nav-item mr-5">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
+    <div class="container">
+     <img src="./Assets/images/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg" class="img-fluid" alt="">
+     <p class="dev" style="color: white; font-weight: normal; font-size: xx-large;">
+
+
+     </p>
+    <!--- <script>
+       function scroll(pos)  
+                    {  
+                        var txt = "<Dev_Launch/>"
+                        var output = "";  
+                        var screen = document.getElementById("dev");  
+                        for (var i = 0; i < pos; i++)  
+                        {  
+                            output += txt.charAt(i);  
+                        }  
+                        output += txt.charAt(pos);  
+                        screen.innerHTML = output;  
+                        pos++;  
+                        if (pos != txt.length)  
+                        {  
+                            window.setTimeout(function () { scroll(pos); }, 400);  
+                        }  
+                        else  
+                        {  
+                            window.setTimeout(function () { scroll(0); }, 500);  
+                        }  
+                    }  
+                    scroll(0);  
+     </script> -->
+    </div> 
 
   <div class="container event">
     <h1 class="my-3 text-center heading">DevLaunch</h1>
@@ -76,7 +107,14 @@
 
       </div>
     </div>
-   
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-center">
+          About The Event
+        </h2>
+      </div>
+    </div>
+  
 
     <div class="row">
       <div class="col-md-12">
@@ -166,7 +204,7 @@
      </div>
     </div>
     </div>
-    <h2 class="text-center mentor-heading my-5">Mentors of DevLaunch</h2>
+    <h2 class="text-center mentor-heading my-5" id="mentors">Mentors of DevLaunch</h2>
     <div class="row mentors mb-5">
       <div class="col-lg-4 mentor center">
         <img class="mentor-pic" src="./Assets/images/mentor/abhishek.jpg">
@@ -190,7 +228,7 @@
   </div>
   <!--Footer-->
   <div class="footer">
-    <div class="upperFooter center">
+    <div class="upperFooter center" id="contact">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-12 center">
           <img src="./Assets/images/gsLogo.png">
