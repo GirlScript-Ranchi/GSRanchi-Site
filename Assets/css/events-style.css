@@ -35,13 +35,7 @@ nav{
 }
 #banner{
     width: 100%;
-    opacity: 0.8;
-}
-.desc{
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    font-size: 5em;
+    height: 100vh;
 }
 .footer{
     width: 100%;
@@ -119,11 +113,23 @@ form
     border-radius: 5px;
     background: linear-gradient(45deg, #ffa400, #F57C00 )
 }
-.event{
-    padding-top: 2vh;
-}
 .event h1,.event h2,.event h3,.event h4, .event h5, .event h6{
     font-family: 'Poppins', sans-serif;
+}
+.img-container{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.event-text-type{
+    height: 100vh;
+    margin-top: -100vh;
+}
+.event-text-type h1{
+    font-weight: 800;
+    font-size: 6vh;
+    color: #fff;
+    opacity: 1 !important;
 }
 .event h1{
     font-size: 50px;

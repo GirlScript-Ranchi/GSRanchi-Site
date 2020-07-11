@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="keywords" content="Girlscript Ranchi GS Github Tech Bootcamp GSRNC GSRanchi Technology Arnab Deep Debanshu Mutt gsrnc gsranchi HTML JavaScript
   CSS Portfolio Website Workshop Web Development">
-    <meta name="description" content="DevLaunch is a Web Development workshop + portfolio website making COMPETITION.
+  <meta name="description" content="DevLaunch is a Web Development workshop + portfolio website making COMPETITION.
     ">
-    <meta name="author" content="Arnab Deep, Debanshu Mutt">
-    <meta property="og:title" content="GirlScript | Ranchi | DevLaunch">
-    <meta property="og:type" content="Website">
-    <meta property="og:description" content="
+  <meta name="author" content="Arnab Deep, Debanshu Mutt">
+  <meta property="og:title" content="GirlScript | Ranchi | DevLaunch">
+  <meta property="og:type" content="Website">
+  <meta property="og:description" content="
     Girlscript Ranchi GS Github Tech Bootcamp GSRNC GSRanchi Technology Arnab Deep Debanshu Mutt gsrnc gsranchi">
-    <meta name="description" content="DevLaunch is a Web Development workshop + portfolio website making COMPETITION.
+  <meta name="description" content="DevLaunch is a Web Development workshop + portfolio website making COMPETITION.
     ">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
@@ -54,71 +54,12 @@
       </ul>
     </div>
   </nav>
-  <div class="img-container">
+  <div class="img-container center bg-danger">
     <img src="./Assets/images/web_back.jpeg" id="banner" alt="">
-    <div class="desc">
-      <p id="dev" style="color: white; font-size: xx-large;">
-        </p>
-        <script>
-          function scroll(pos)  
-                       {  
-                           var txt = "Dev_Launch"
-                           var output = "";  
-                           var screen = document.getElementById("dev");  
-                           for (var i = 0; i < pos; i++)  
-                           {  
-                               output += txt.charAt(i);  
-                           }  
-                           output += txt.charAt(pos);  
-                           screen.innerHTML = output;  
-                           pos++;  
-                           if (pos != txt.length)  
-                           {  
-                               window.setTimeout(function () { scroll(pos); }, 400);  
-                           }  
-                           else  
-                           {  
-                               window.setTimeout(function () { scroll(0); }, 500);  
-                           }  
-                       }  
-                       scroll(0);  
-        </script> 
-      
-    </div>
   </div>
-   <!-- <div class="container">
-     <img src="./Assets/images/web_back.jpeg" class="img-fluid" alt="">
-     <p class="dev" style="color: white; font-weight: normal; font-size: xx-large;">
-
-
-     </p>
-
-     <script>
-       function scroll(pos)  
-                    {  
-                        var txt = "<Dev_Launch/>"
-                        var output = "";  
-                        var screen = document.getElementById("dev");  
-                        for (var i = 0; i < pos; i++)  
-                        {  
-                            output += txt.charAt(i);  
-                        }  
-                        output += txt.charAt(pos);  
-                        screen.innerHTML = output;  
-                        pos++;  
-                        if (pos != txt.length)  
-                        {  
-                            window.setTimeout(function () { scroll(pos); }, 400);  
-                        }  
-                        else  
-                        {  
-                            window.setTimeout(function () { scroll(0); }, 500);  
-                        }  
-                    }  
-                    scroll(0);  
-     </script> 
-    </div> -->
-
+  <div class="event-text-type center">
+    <h1 id="dev"></h1>
+  </div>
 
   <div class="container event" id="about" style="padding-top: 100px;">
     <h1 class="text-center heading">DevLaunch</h1>
@@ -250,7 +191,7 @@
           <h3 class="center">Contacts</h3>
           <h6><strong>Address :</strong><br> Ranchi, Jharkhand - 834001</h6>
           <h6><strong>Email :</strong><br><a href="mailto:girlscript.rnc@gmail.com">girlscript.rnc@gmail.com</a></h6>
-        <!--  <h6><strong>Contact :</strong><br>+91-9876543210</h6> -->
+          <!--  <h6><strong>Contact :</strong><br>+91-9876543210</h6> -->
         </div>
         <div class="col-lg-3 col-md-6 col-12 my-auto">
           <h4 class="text-center">Connect with us on:</h4>
@@ -268,10 +209,12 @@
     <div class="lowerFooter center">
       <div class="row flex-column">
         <h6 class="mx-auto">© 2020 GirlScript Ranchi | All rights reserved.</h6>
-        <h6 class="mx-auto">Made with &#10084;&#65039; by <strong style="color: #F57C00;">GirlScript Ranchi</strong></h6>
+        <h6 class="mx-auto">Made with &#10084;&#65039; by <strong style="color: #F57C00;">GirlScript Ranchi</strong>
+        </h6>
       </div>
     </div>
   </div>
+  <script src="./Assets/js/devlaunch.js"></script>
   <script src="//cdn.muicss.com/mui-0.10.3/extra/mui-combined.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
