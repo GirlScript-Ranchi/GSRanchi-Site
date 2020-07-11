@@ -54,13 +54,46 @@
       </ul>
     </div>
   </nav>
-    <div class="container">
+  <div class="img-container">
+    <img src="./Assets/images/web_back.jpeg" id="banner" alt="">
+    <div class="desc">
+      <p id="dev" style="color: white; font-size: xx-large;">
+        </p>
+        <script>
+          function scroll(pos)  
+                       {  
+                           var txt = "Dev_Launch"
+                           var output = "";  
+                           var screen = document.getElementById("dev");  
+                           for (var i = 0; i < pos; i++)  
+                           {  
+                               output += txt.charAt(i);  
+                           }  
+                           output += txt.charAt(pos);  
+                           screen.innerHTML = output;  
+                           pos++;  
+                           if (pos != txt.length)  
+                           {  
+                               window.setTimeout(function () { scroll(pos); }, 400);  
+                           }  
+                           else  
+                           {  
+                               window.setTimeout(function () { scroll(0); }, 500);  
+                           }  
+                       }  
+                       scroll(0);  
+        </script> 
+      
+    </div>
+  </div>
+   <!-- <div class="container">
      <img src="./Assets/images/web_back.jpeg" class="img-fluid" alt="">
      <p class="dev" style="color: white; font-weight: normal; font-size: xx-large;">
 
 
      </p>
-    <!--- <script>
+
+     <script>
        function scroll(pos)  
                     {  
                         var txt = "<Dev_Launch/>"
@@ -83,8 +116,9 @@
                         }  
                     }  
                     scroll(0);  
-     </script> -->
-    </div> 
+     </script> 
+    </div> -->
+
 
   <div class="container event" id="about" style="margin-top: 100px; padding-top: 100px;">
     <h1 class="text-center heading">DevLaunch</h1>

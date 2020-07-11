@@ -28,6 +28,21 @@ nav{
     font-weight: 700;
     font-size: 1.1rem;
 }
+.image-container{
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+#banner{
+    width: 100%;
+    opacity: 0.8;
+}
+.desc{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 5em;
+}
 .footer{
     width: 100%;
     background-color: aqua;
