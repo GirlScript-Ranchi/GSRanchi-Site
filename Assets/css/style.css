@@ -14,6 +14,7 @@ body, html{
     position: fixed;
     z-index: +9999;
 }
+/*
 .navbar{
     width: 100%;
     top: 0 !important;
@@ -33,6 +34,106 @@ nav{
     color: #F57C00 !important;
     font-weight: 700;
     font-size: 1.1rem;
+}*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px !important;
+    padding-left: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+    background-color: #181818;
+    z-index: +9999;
+}
+header .logo{
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    margin-left: 100px;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 100px;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+    padding: 0 20px;
+}
+.menu-toggle{
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+header nav ul li a:link, header nav ul li a:visited, header nav ul li a :hover, header nav ul li a:active{
+    color: #F57C00;
+    text-decoration: none;
+}
+@media screen and (max-width : 1000px){
+    .mentor{
+        margin: 2%;
+    }
+    .lowerFooter .col-md-5, .lowerFooter .col-md-2{
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        padding: 0 50px;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    header nav{
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 99px);
+        background: #222;
+        top:99px;
+        left: -100%;
+        transition: .5s;
+    }
+    header .logo{
+        margin-left: 10px;
+    }
+    header nav.active{
+        left: 0;
+    }
+    header nav ul{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+    }
+    header nav ul li a{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 650;
+        line-height: 80px;
+        font-size: 40px;
+        color: #F57C00;
+        text-decoration: none;
+    }
+    header nav ul li a:link, header nav ul li a:visited, header nav ul li a :hover, header nav ul li a:active{
+    color: #F57C00;
+    text-decoration: none;
+}
 }
 .carousel{
     height: 100vh;
@@ -272,24 +373,27 @@ p, small, h6{
     .lowerFooter h6{
         font-size: 0.9em;
     }
+    /*
     nav{
         max-height: fit-content !important;
-    }
+    }*/
     .branding{
         font-size: 2rem;
         margin-bottom: 0%;
     }
     .carousel{
-        margin-top: 0vh;
+        margin-top: calc(20vh - 100px);
         height: 35vh;
     }
     .carousel-overlay{
         height: 35vh;
         margin-top: -35vh;
     }
+    /*
     nav{
         padding: 5% 8% !important;
     }
+    */
     .tablet-mode{
         display: none;
     }

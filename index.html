@@ -33,7 +33,24 @@
 
 <body onload="disableLoader()">
     <div class="loader" id="loader"></div>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <header>
+		<div class="logo">
+			<a href="./index.html"><img src="./Assets/images/logoLight.png" width="200" alt=""></a>
+		</div>
+		<nav>
+			<ul>
+				<li class="navlink"><a href="#">Home</a></li>
+				<li class="navlink"><a href="#about">About</a></li>
+				<li class="navlink"><a href="#events">Events</a></li>
+				<li class="navlink"><a href="#team">Team</a></li>
+				<li class="navlink"><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+		<div class="menu-toggle mt-1">
+			<i class="fa fa-bars" aria-hidden="true" style="color: #F57C00;"></i>
+		</div>
+	</header>
+    <!--nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand my-auto" href="#"><img src="./Assets/images/logoLight.png" width="200"
                 alt="GirlScript Ranchi"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -59,7 +76,7 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav-->
 
     <div id="demo" class="carousel slide" data-ride="carousel">
         <!-- The slideshow -->
@@ -489,6 +506,16 @@
                 }
             ]
         });
+    </script>
+    <script>
+        $(document).ready(function () {
+			$('.menu-toggle').click(function () {
+				$('nav').toggleClass('active')
+			});
+			$(".navlink").click(function () {
+				$("nav").removeClass("active")
+			});
+		});
     </script>
 </body>
 
