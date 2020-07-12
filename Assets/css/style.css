@@ -72,25 +72,15 @@ p, small, h6{
 .footer{
     width: 100%;
 }
-.upperFooter{
-    background-color: #333;
-    color: #f7f7f7;
-    width: 100%;
-    padding: 3%;
-}
-
-.upperFooter img{
+.lowerFooter img{
     height: 150px !important;
 }
-.upperFooter h3{
+.lowerFooter h3{
     font-weight: 500;
     font-size: 2em;
 }
-.upperFooter h5{
+.lowerFooter h5{
     color: #F57C00;
-}
-.upperFooter a{
-    color: #f7f7f7;
 }
 .lowerFooter{
     background-color: #222;
@@ -99,36 +89,26 @@ p, small, h6{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2% 0% !important;
+    overflow: hidden;
+    padding: 1% 0%;
 }
 .lowerFooter a{
     text-decoration: none;
     color: #f7f7f7;
 }
+.lowerFooter .col-md-4{
+    min-width: fit-content;
+}
+.lowerFooter .container-fluid{
+    padding: 0% !important;
+    margin: 0% !important;
+}
+.lowerFooter hr{
+    width: 100%;
+    border: 1px solid #181818;
+}
 .fa-2x:hover{
     color: #F57C00;
-}
-div.form
-{
-    display: block;
-    text-align: center;
-}
-form
-{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-.btn, .btn-primary, .btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
-.btn-primary:active:focus:not(:disabled):not(.disabled),
-.btn:focus, .btn:active, .btn:hover{
-    box-shadow: none!important;
-    outline: 0;
-    background-color: #F57C00;
-    border: 2px solid #000;
-    color: #000 !important;
-    border-radius: 5px;
 }
 .center{
     display: flex;
@@ -271,6 +251,10 @@ form
     }
     .program .card-deck .card{
         margin-top: 30px;
+    }
+    .lowerFooter .col-md-5, .lowerFooter .col-md-2{
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (min-width : 1025px){
