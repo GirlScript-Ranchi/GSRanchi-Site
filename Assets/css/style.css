@@ -106,7 +106,7 @@ header nav ul li a:link, header nav ul li a:visited, header nav ul li a :hover, 
         transition: .5s;
     }
     header .logo{
-        margin-left: 10px;
+        margin-left: -25px;
     }
     header nav.active{
         left: 0;
