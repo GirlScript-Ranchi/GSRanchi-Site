@@ -201,15 +201,19 @@ header {
     background-color: #181818;
     z-index: +9999;
 }
+@media screen and (min-width : 1000px){
+    header .logo{
+        margin-left: 200px !important;
+    }
+}
 
 header .logo {
     color: #fff;
     height: 50px;
     line-height: 50px;
     float: left;
-    margin-left: -25px !important;
+    margin-left: -25px;
 }
-
 header nav {
     float: right;
 }
@@ -285,11 +289,6 @@ header nav ul li a:active {
         left: -100%;
         transition: .5s;
     }
-
-    header .logo {
-        margin-left: 10px;
-    }
-
     header nav.active {
         left: 0;
     }
