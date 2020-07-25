@@ -34,50 +34,22 @@
 <body onload="disableLoader()">
     <div class="loader" id="loader"></div>
     <header>
-		<div class="logo">
-			<a href="./index.html"><img src="./Assets/images/logoLight.png" width="200" alt=""></a>
-		</div>
-		<nav>
-			<ul>
-				<li class="navlink"><a href="#">Home</a></li>
-				<li class="navlink"><a href="#about">About</a></li>
-				<li class="navlink"><a href="#events">Events</a></li>
-				<li class="navlink"><a href="#team">Team</a></li>
-				<li class="navlink"><a href="#contact">Contact Us</a></li>
-			</ul>
-		</nav>
-		<div class="menu-toggle mt-1">
-			<i class="fa fa-bars" aria-hidden="true" style="color: #F57C00;"></i>
-		</div>
-	</header>
-    <!--nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand my-auto" href="#"><img src="./Assets/images/logoLight.png" width="200"
-                alt="GirlScript Ranchi"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item mr-3">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item mr-3">
-                    <a class="nav-link" href="#about">About Us</a>
-                </li>
-                <li class="nav-item mr-3">
-                    <a class="nav-link" href="#events">Our Events</a>
-                </li>
-                <li class="nav-item mr-3">
-                    <a class="nav-link" href="#team">Our Team</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link" href="#contact">Contact Us</a>
-                </li>
-            </ul>
+        <div class="logo">
+            <a href="./index.html"><img src="./Assets/images/logoLight.png" width="200" alt=""></a>
         </div>
-    </nav-->
-
+        <nav>
+            <ul>
+                <li class="navlink"><a href="#">Home</a></li>
+                <li class="navlink"><a href="#about">About</a></li>
+                <li class="navlink"><a href="#events">Events</a></li>
+                <li class="navlink"><a href="#team">Team</a></li>
+                <li class="navlink"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle mt-1">
+            <i class="fa fa-bars" aria-hidden="true" style="color: #F57C00;"></i>
+        </div>
+    </header>
     <div id="demo" class="carousel slide" data-ride="carousel">
         <!-- The slideshow -->
         <div class="carousel-inner">
@@ -377,8 +349,8 @@
         </div>
         <small class="text-center mb-5">Connect with the team by clicking on names.</small>
     </div>
-    
-    <div class="container mt-3 join center">
+
+    <div class="container mb-5 join center">
         <div class="row">
             <div class="col-12 text-center">
                 <h1>Join Us</h1>
@@ -388,7 +360,8 @@
         <div class="row">
             <div class="col-lg-6 col-12 center">
                 <h3>Campus Hero</h3>
-                <h6 class="px-1">Here's an another opportunity to become a part of the Girlscript Ranchi community! <br> Be the
+                <h6 class="px-1">Here's an another opportunity to become a part of the Girlscript Ranchi community! <br>
+                    Be the
                     face
                     of Girlscript Ranchi in your campus and get a chance to win amazing Girlscript goodies based on
                     your
@@ -401,7 +374,8 @@
             </div>
             <div class="col-lg-6 col-12 center mentor">
                 <h3 class="text-center">Mentor</h3>
-                <h6 class="px-1">The best way to share your knowledge is by teaching it to someone. Mentors are a part of the
+                <h6 class="px-1">The best way to share your knowledge is by teaching it to someone. Mentors are a part
+                    of the
                     Girlscript Ranchi community who have this amazing opportunity to share their knowledge and their
                     skills with other students and win the amazing Girlscript goodies based on their performance.
                 </h6>
@@ -537,45 +511,15 @@
             ]
         });
     </script>
-    <!--script>
-        $('.program-slider').slick({
-            lazyload: 'ondemand',
-            dots: true,
-            centerMode: true,
-            centerPadding: '10px',
-            arrows: true,
-            slidesToShow: 3,
-            responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '10px',
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: true,
-                        dots: false,
-                        centerMode: true,
-                        centerPadding: '10px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-    </script-->
     <script>
         $(document).ready(function () {
-			$('.menu-toggle').click(function () {
-				$('nav').toggleClass('active')
-			});
-			$(".navlink").click(function () {
-				$("nav").removeClass("active")
-			});
-		});
+            $('.menu-toggle').click(function () {
+                $('nav').toggleClass('active')
+            });
+            $(".navlink").click(function () {
+                $("nav").removeClass("active")
+            });
+        });
     </script>
 </body>
 

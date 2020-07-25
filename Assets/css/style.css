@@ -14,27 +14,6 @@ body, html{
     position: fixed;
     z-index: +9999;
 }
-/*
-.navbar{
-    width: 100%;
-    top: 0 !important;
-    margin: 0%;
-    padding: 0%;
-}
-.navbar-brand{
-    padding: 0% !important;
-    margin: 0% !important;
-}
-nav{
-    position: fixed;
-    margin: 0%;
-    padding: 1.75% 5% !important;
-}
-.nav-link{
-    color: #F57C00 !important;
-    font-weight: 700;
-    font-size: 1.1rem;
-}*/
 header{
     position: fixed;
     top: 0;
@@ -99,9 +78,9 @@ header nav ul li a:link, header nav ul li a:visited, header nav ul li a :hover, 
     header nav{
         position: absolute;
         width: 100%;
-        height: calc(100vh - 99px);
+        height: 100vh;
         background: #222;
-        top:99px;
+        top: 100px;
         left: -100%;
         transition: .5s;
     }
@@ -135,6 +114,7 @@ header nav ul li a:link, header nav ul li a:visited, header nav ul li a :hover, 
 .carousel{
     height: 100vh;
     overflow: hidden;
+    margin-top: 100px;
 }
 .carousel-overlay{
     background-color: #000;
@@ -370,27 +350,18 @@ p, small, h6{
     .lowerFooter h6{
         font-size: 0.9em;
     }
-    /*
-    nav{
-        max-height: fit-content !important;
-    }*/
     .branding{
         font-size: 2rem;
         margin-bottom: 0%;
     }
     .carousel{
-        margin-top: calc(20vh - 100px);
+        margin-top: 99px;
         height: 35vh;
     }
     .carousel-overlay{
         height: 35vh;
         margin-top: -35vh;
     }
-    /*
-    nav{
-        padding: 5% 8% !important;
-    }
-    */
     .tablet-mode{
         display: none;
     }
