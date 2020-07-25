@@ -203,7 +203,7 @@ header {
 }
 @media screen and (min-width : 1000px){
     header .logo{
-        margin-left: 200px !important;
+        margin-left: 100px !important;
     }
 }
 
